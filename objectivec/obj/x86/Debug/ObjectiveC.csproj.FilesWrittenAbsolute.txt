@@ -1,0 +1,7 @@
+/Users/bsd-mac/Dropbox/Projects/RecursivePseudoLanguage/ObjectiveC/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/bsd-mac/Dropbox/Projects/RecursivePseudoLanguage/ObjectiveC/bin/Debug/testComplete1.m
+/Users/bsd-mac/Dropbox/Projects/RecursivePseudoLanguage/ObjectiveC/bin/Debug/testObjectiveC1.m
+/Users/bsd-mac/Dropbox/Projects/RecursivePseudoLanguage/ObjectiveC/bin/Debug/ObjectiveC.exe.mdb
+/Users/bsd-mac/Dropbox/Projects/RecursivePseudoLanguage/ObjectiveC/bin/Debug/ObjectiveC.exe
+/Users/bsd-mac/Dropbox/Projects/RecursivePseudoLanguage/ObjectiveC/obj/x86/Debug/ObjectiveC.exe
+/Users/bsd-mac/Dropbox/Projects/RecursivePseudoLanguage/ObjectiveC/obj/x86/Debug/ObjectiveC.exe.mdb

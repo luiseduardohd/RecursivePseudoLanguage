@@ -1,0 +1,5 @@
+/Users/bsd-mac/Dropbox/Projects/RecursivePseudoLanguage/RecursivePseudoLanguage/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/bsd-mac/Dropbox/Projects/RecursivePseudoLanguage/RecursivePseudoLanguage/bin/Debug/RecursivePseudoLanguage.exe.mdb
+/Users/bsd-mac/Dropbox/Projects/RecursivePseudoLanguage/RecursivePseudoLanguage/bin/Debug/RecursivePseudoLanguage.exe
+/Users/bsd-mac/Dropbox/Projects/RecursivePseudoLanguage/RecursivePseudoLanguage/obj/x86/Debug/RecursivePseudoLanguage.exe
+/Users/bsd-mac/Dropbox/Projects/RecursivePseudoLanguage/RecursivePseudoLanguage/obj/x86/Debug/RecursivePseudoLanguage.exe.mdb
