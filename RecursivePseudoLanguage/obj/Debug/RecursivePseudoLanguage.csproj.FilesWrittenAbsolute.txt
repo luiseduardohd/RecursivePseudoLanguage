@@ -1,0 +1,7 @@
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/RecursivePseudoLanguage/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/RecursivePseudoLanguage/bin/Debug/RecursivePseudoLanguage.dll.mdb
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/RecursivePseudoLanguage/bin/Debug/RecursivePseudoLanguage.dll
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/RecursivePseudoLanguage/obj/Debug/RecursivePseudoLanguage.dll
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/RecursivePseudoLanguage/obj/Debug/RecursivePseudoLanguage.dll.mdb
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/RecursivePseudoLanguage/bin/Debug/SystemX.dll
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/RecursivePseudoLanguage/bin/Debug/SystemX.dll.mdb

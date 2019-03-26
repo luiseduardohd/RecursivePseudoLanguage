@@ -1,0 +1,17 @@
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/LanguageConverter/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/LanguageConverter/bin/Debug/LanguageConverter.dll.mdb
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/LanguageConverter/bin/Debug/LanguageConverter.dll
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/LanguageConverter/obj/Debug/LanguageConverter.dll
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/LanguageConverter/obj/Debug/LanguageConverter.dll.mdb
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/LanguageConverter/bin/Debug/CSharp.dll
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/LanguageConverter/bin/Debug/CSharp.dll.mdb
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/LanguageConverter/bin/Debug/BaseLanguage.dll
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/LanguageConverter/bin/Debug/BaseLanguage.dll.mdb
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/LanguageConverter/bin/Debug/Preprocessor.dll
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/LanguageConverter/bin/Debug/Preprocessor.dll.mdb
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/LanguageConverter/bin/Debug/RecursivePseudoLanguage.dll
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/LanguageConverter/bin/Debug/RecursivePseudoLanguage.dll.mdb
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/LanguageConverter/bin/Debug/SystemX.dll
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/LanguageConverter/bin/Debug/SystemX.dll.mdb
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/LanguageConverter/bin/Debug/ObjectiveC.dll
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/LanguageConverter/bin/Debug/ObjectiveC.dll.mdb

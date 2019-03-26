@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{D150C2CA-FFDE-4841-966A-00E10FAFEC2F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>BaseLanguage</RootNamespace>
+    <AssemblyName>BaseLanguage</AssemblyName>
+    <TargetFrameworkProfile>Profile78</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Assignation.cs" />
+    <Compile Include="DoWhile.cs" />
+    <Compile Include="For.cs" />
+    <Compile Include="FunctionCall.cs" />
+    <Compile Include="If.cs" />
+    <Compile Include="Interface.cs" />
+    <Compile Include="List.cs" />
+    <Compile Include="Number.cs" />
+    <Compile Include="Operation.cs" />
+    <Compile Include="Switch.cs" />
+    <Compile Include="Value.cs" />
+    <Compile Include="While.cs" />
+    <Compile Include="Unit.cs" />
+    <Compile Include="Declaration.cs" />
+    <Compile Include="UnaryOperator.cs" />
+    <Compile Include="Cast.cs" />
+    <Compile Include="Multiplication.cs" />
+    <Compile Include="Addition.cs" />
+    <Compile Include="Equality.cs" />
+    <Compile Include="And.cs" />
+    <Compile Include="ExclusiveOr.cs" />
+    <Compile Include="InclusiveOr.cs" />
+    <Compile Include="Type.cs" />
+    <Compile Include="Enumerator.cs" />
+    <Compile Include="Function.cs" />
+    <Compile Include="Puntero.cs" />
+    <Compile Include="Block.cs" />
+    <Compile Include="String.cs" />
+    <Compile Include="PreIncrement.cs" />
+    <Compile Include="PreDecrement.cs" />
+    <Compile Include="Class.cs" />
+    <Compile Include="Namespace.cs" />
+    <Compile Include="Array.cs" />
+    <Compile Include="Character.cs" />
+    <Compile Include="Integer.cs" />
+    <Compile Include="Boolean.cs" />
+    <Compile Include="Null.cs" />
+    <Compile Include="TryCatch.cs" />
+    <Compile Include="Element.cs" />
+    <Compile Include="EvaluableExpression.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+</Project>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{5A6320D0-C1A4-4F47-A195-0293550413C9}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>WindowsFormGUI</RootNamespace>
+    <AssemblyName>WindowsFormGUI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainForm.cs" />
+    <Compile Include="UnBabeler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CSharp\CSharp.csproj">
+      <Project>{98A7EE3B-F712-4FD4-9CF5-7518034F3F29}</Project>
+      <Name>CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BaseLanguage\BaseLanguage.csproj">
+      <Project>{D150C2CA-FFDE-4841-966A-00E10FAFEC2F}</Project>
+      <Name>BaseLanguage</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SystemX\SystemX.csproj">
+      <Project>{B9FFFA16-1F45-4AA1-9A48-3765D1F0BE06}</Project>
+      <Name>SystemX</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RecursivePseudoLanguage\RecursivePseudoLanguage.csproj">
+      <Project>{FF6FDB80-CC4D-4C13-845C-0F2CC495F7A6}</Project>
+      <Name>RecursivePseudoLanguage</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ObjectiveC\ObjectiveC.csproj">
+      <Project>{536CA0C1-21BE-48BD-9961-A15338DCF62B}</Project>
+      <Name>ObjectiveC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnBabeler\UnBabeler.csproj">
+      <Project>{328EE775-9685-4BC6-8198-E6A64BBFCD9C}</Project>
+      <Name>UnBabeler</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="testObjectiveC1.m">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="resultObjectiveC1.cs" />
+    <None Include="testObjectiveC2.m" />
+  </ItemGroup>
+</Project>

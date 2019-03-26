@@ -1,0 +1,5 @@
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/VerbalExpressions/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/VerbalExpressions/bin/Debug/VerbalExpressions.dll.mdb
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/VerbalExpressions/bin/Debug/VerbalExpressions.dll
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/VerbalExpressions/obj/Debug/VerbalExpressions.dll
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/VerbalExpressions/obj/Debug/VerbalExpressions.dll.mdb

@@ -9,7 +9,7 @@ using System.Runtime.CompilerServices;
 [assembly: AssemblyConfiguration ("")]
 [assembly: AssemblyCompany ("")]
 [assembly: AssemblyProduct ("")]
-[assembly: AssemblyCopyright ("bsd-mac")]
+[assembly: AssemblyCopyright ("luiseduardohernandez")]
 [assembly: AssemblyTrademark ("")]
 [assembly: AssemblyCulture ("")]
 

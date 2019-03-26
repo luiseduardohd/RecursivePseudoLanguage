@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{FAA53E61-2384-4C06-A923-D52B4B959DE1}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TestsConsole</RootNamespace>
+    <AssemblyName>TestsConsole</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <None Include="testComplete1.m">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="testObjectiveC1.m">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tests\Tests.csproj">
+      <Project>{ADB17841-0689-48E3-9A3D-BF1A2CF647BA}</Project>
+      <Name>Tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BaseLanguage\BaseLanguage.csproj">
+      <Project>{D150C2CA-FFDE-4841-966A-00E10FAFEC2F}</Project>
+      <Name>BaseLanguage</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSharp\CSharp.csproj">
+      <Project>{98A7EE3B-F712-4FD4-9CF5-7518034F3F29}</Project>
+      <Name>CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LanguageConverter\LanguageConverter.csproj">
+      <Project>{0ADBF4B1-7018-4F6A-90DC-48AA12A004CA}</Project>
+      <Name>LanguageConverter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ParserSubstitutions\ParserSubstitutions.csproj">
+      <Project>{1FC36456-F4A3-47AC-8FCC-FD4C0EE576B4}</Project>
+      <Name>ParserSubstitutions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Preprocessor\Preprocessor.csproj">
+      <Project>{97F46FC3-158B-45BA-A5DC-F71FEF3ED4C2}</Project>
+      <Name>Preprocessor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RecursivePseudoLanguage\RecursivePseudoLanguage.csproj">
+      <Project>{FF6FDB80-CC4D-4C13-845C-0F2CC495F7A6}</Project>
+      <Name>RecursivePseudoLanguage</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SystemX\SystemX.csproj">
+      <Project>{B9FFFA16-1F45-4AA1-9A48-3765D1F0BE06}</Project>
+      <Name>SystemX</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ObjectiveC\ObjectiveC.csproj">
+      <Project>{536CA0C1-21BE-48BD-9961-A15338DCF62B}</Project>
+      <Name>ObjectiveC</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

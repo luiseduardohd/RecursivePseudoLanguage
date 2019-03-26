@@ -2,14 +2,16 @@
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{E80DB3BF-32AE-43D5-B0A8-7D394034EAAF}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{FF6FDB80-CC4D-4C13-845C-0F2CC495F7A6}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <RootNamespace>RecursivePseudoLanguage</RootNamespace>
     <AssemblyName>RecursivePseudoLanguage</AssemblyName>
+    <TargetFrameworkProfile>Profile78</TargetFrameworkProfile>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -17,59 +19,34 @@
     <DefineConstants>DEBUG;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <Externalconsole>true</Externalconsole>
-    <PlatformTarget>x86</PlatformTarget>
+    <ConsolePause>false</ConsolePause>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>full</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <Externalconsole>true</Externalconsole>
-    <PlatformTarget>x86</PlatformTarget>
+    <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Program.cs" />
-    <Compile Include="ObjectiveC\Declaration.cs" />
-    <Compile Include="ObjectiveC\Sum.cs" />
-    <Compile Include="SystemX\ReplaceableString.cs" />
-    <Compile Include="SystemX\String.cs" />
-    <Compile Include="RecursivePseudoLanguage\Brace.cs" />
-    <Compile Include="RecursivePseudoLanguage\Bracket.cs" />
-    <Compile Include="RecursivePseudoLanguage\Element.cs" />
-    <Compile Include="RecursivePseudoLanguage\Implementation.cs" />
-    <Compile Include="RecursivePseudoLanguage\InnerElement.cs" />
-    <Compile Include="RecursivePseudoLanguage\Interface.cs" />
-    <Compile Include="RecursivePseudoLanguage\Parenthesis.cs" />
-    <Compile Include="RecursivePseudoLanguage\RecursivePseudoLanguage.cs" />
-    <Compile Include="RecursivePseudoLanguage\Protocol.cs" />
-    <Compile Include="ObjectiveC\Value.cs" />
-    <Compile Include="ObjectiveC\Identifier.cs" />
-    <Compile Include="ObjectiveC\Number.cs" />
-    <Compile Include="ObjectiveC\Unit.cs" />
-    <Compile Include="ObjectiveC\Sentence.cs" />
-    <Compile Include="ObjectiveC\SentenceList.cs" />
-    <Compile Include="ParserSubstituciones\FunctionCall.cs" />
-    <Compile Include="ParserSubstituciones\FunctionImplementation.cs" />
-    <Compile Include="ParserSubstituciones\Implementation.cs" />
-    <Compile Include="ParserSubstituciones\Interface.cs" />
-    <Compile Include="ParserSubstituciones\Match.cs" />
-    <Compile Include="ParserSubstituciones\Parser.cs" />
-    <Compile Include="ParserSubstituciones\Regex.cs" />
-    <Compile Include="ParserSubstituciones\Sentence.cs" />
-    <Compile Include="ParserSubstituciones\Text.cs" />
-    <Compile Include="ParserSubstituciones\Unit.cs" />
+    <Compile Include="Brace.cs" />
+    <Compile Include="Bracket.cs" />
+    <Compile Include="Element.cs" />
+    <Compile Include="Implementation.cs" />
+    <Compile Include="InnerElement.cs" />
+    <Compile Include="Interface.cs" />
+    <Compile Include="Parenthesis.cs" />
+    <Compile Include="Protocol.cs" />
+    <Compile Include="RecursivePseudoLanguage.cs" />
+    <Compile Include="RecursivePseudoLanguageElement.cs" />
   </ItemGroup>
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <ItemGroup>
-    <Folder Include="ObjectiveC\" />
-    <Folder Include="SystemX\" />
-    <Folder Include="RecursivePseudoLanguage\" />
-    <Folder Include="ParserSubstituciones\" />
+    <ProjectReference Include="..\SystemX\SystemX.csproj">
+      <Project>{B9FFFA16-1F45-4AA1-9A48-3765D1F0BE06}</Project>
+      <Name>SystemX</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>

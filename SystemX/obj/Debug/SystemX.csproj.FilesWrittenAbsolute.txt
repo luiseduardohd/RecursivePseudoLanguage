@@ -1,0 +1,5 @@
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/SystemX/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/SystemX/bin/Debug/SystemX.dll.mdb
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/SystemX/bin/Debug/SystemX.dll
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/SystemX/obj/Debug/SystemX.dll
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/SystemX/obj/Debug/SystemX.dll.mdb

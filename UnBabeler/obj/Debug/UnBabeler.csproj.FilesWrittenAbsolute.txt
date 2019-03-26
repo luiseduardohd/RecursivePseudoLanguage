@@ -1,0 +1,15 @@
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/UnBabeler/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/UnBabeler/bin/Debug/UnBabeler.dll.mdb
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/UnBabeler/bin/Debug/UnBabeler.dll
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/UnBabeler/obj/Debug/UnBabeler.dll
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/UnBabeler/obj/Debug/UnBabeler.dll.mdb
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/UnBabeler/bin/Debug/BaseLanguage.dll
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/UnBabeler/bin/Debug/BaseLanguage.dll.mdb
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/UnBabeler/bin/Debug/CSharp.dll
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/UnBabeler/bin/Debug/CSharp.dll.mdb
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/UnBabeler/bin/Debug/ObjectiveC.dll
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/UnBabeler/bin/Debug/ObjectiveC.dll.mdb
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/UnBabeler/bin/Debug/RecursivePseudoLanguage.dll
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/UnBabeler/bin/Debug/RecursivePseudoLanguage.dll.mdb
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/UnBabeler/bin/Debug/SystemX.dll
+/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/UnBabeler/bin/Debug/SystemX.dll.mdb
