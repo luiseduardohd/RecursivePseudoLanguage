@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="ObjectiveC/ObjectiveC.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ObjectiveC/ObjectiveC/Unit.cs">
+    <Files>
+      <File FileName="ObjectiveC/ObjectiveC/Unit.cs" Line="107" Column="95" />
+      <File FileName="ObjectiveC/ObjectiveC/Statement.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/bsd-mac/Dropbox/projects/RecursivePseudoLanguage/RecursivePseudoLanguage/InnerElement.cs" line="46" column="1" />
+      <Breakpoint file="/Users/bsd-mac/Dropbox/projects/RecursivePseudoLanguage/RecursivePseudoLanguage/Program.cs" line="600" column="1" />
+      <Breakpoint file="/Users/bsd-mac/Dropbox/Projects/RecursivePseudoLanguage/RecursivePseudoLanguage/Program.cs" line="66" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="RecursivePseudoLanguage/Program.cs" line="372" offsetX="574" offsetY="5565" expression="replaceableString" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>

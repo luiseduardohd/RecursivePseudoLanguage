@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{95A1ED30-CAF7-40B4-98AE-6AAD62AD1E59}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ObjectiveC</RootNamespace>
+    <AssemblyName>ObjectiveC</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Preprocessor\Preprocessor.cs" />
+    <Compile Include="RecursivePseudoLanguage\Brace.cs" />
+    <Compile Include="RecursivePseudoLanguage\Bracket.cs" />
+    <Compile Include="RecursivePseudoLanguage\Element.cs" />
+    <Compile Include="RecursivePseudoLanguage\Implementation.cs" />
+    <Compile Include="RecursivePseudoLanguage\InnerElement.cs" />
+    <Compile Include="RecursivePseudoLanguage\Interface.cs" />
+    <Compile Include="RecursivePseudoLanguage\Parenthesis.cs" />
+    <Compile Include="RecursivePseudoLanguage\Protocol.cs" />
+    <Compile Include="RecursivePseudoLanguage\RecursivePseudoLanguage.cs" />
+    <Compile Include="SystemX\ReplaceableString.cs" />
+    <Compile Include="SystemX\String.cs" />
+    <Compile Include="ParserSubstituciones\FunctionCall.cs" />
+    <Compile Include="ParserSubstituciones\FunctionImplementation.cs" />
+    <Compile Include="ParserSubstituciones\Implementation.cs" />
+    <Compile Include="ParserSubstituciones\Interface.cs" />
+    <Compile Include="ParserSubstituciones\Match.cs" />
+    <Compile Include="ParserSubstituciones\Parser.cs" />
+    <Compile Include="ParserSubstituciones\Regex.cs" />
+    <Compile Include="ParserSubstituciones\Sentence.cs" />
+    <Compile Include="ParserSubstituciones\Text.cs" />
+    <Compile Include="ParserSubstituciones\Unit.cs" />
+    <Compile Include="ObjectiveC\Unit.cs" />
+    <Compile Include="ObjectiveC\FunctionCall.cs" />
+    <Compile Include="ObjectiveC\FunctionImplementation.cs" />
+    <Compile Include="ObjectiveC\Implementation.cs" />
+    <Compile Include="ObjectiveC\Interface.cs" />
+    <Compile Include="ReflectiveEnumerator\ReflectiveEnumerator.cs" />
+    <Compile Include="ObjectiveC\Sum.cs" />
+    <Compile Include="ObjectiveC\Variable.cs" />
+    <Compile Include="ObjectiveC\Pointer.cs" />
+    <Compile Include="ObjectiveC\Declaration.cs" />
+    <Compile Include="ObjectiveC\MethodCall.cs" />
+    <Compile Include="ObjectiveC\ObjectiveCString.cs" />
+    <Compile Include="ObjectiveC\CInteger.cs" />
+    <Compile Include="ObjectiveC\Return.cs" />
+    <Compile Include="ObjectiveC\Assignation.cs" />
+    <Compile Include="ObjectiveC\ObjectiveCNil.cs" />
+    <Compile Include="ObjectiveC\RelationalOperation.cs" />
+    <Compile Include="ObjectiveC\If.cs" />
+    <Compile Include="ObjectiveC\Value.cs" />
+    <Compile Include="ObjectiveC\Selector.cs" />
+    <Compile Include="ObjectiveC\CFloat.cs" />
+    <Compile Include="ObjectiveC\ValueList.cs" />
+    <Compile Include="ObjectiveC\CommaList.cs" />
+    <Compile Include="ObjectiveC\Closure.cs" />
+    <Compile Include="ObjectiveC\Operation.cs" />
+    <Compile Include="ObjectiveC\Statement.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <None Include="testComplete1.m">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="testObjectiveC1.m">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Preprocessor\" />
+    <Folder Include="ObjectiveC\" />
+    <Folder Include="ReflectiveEnumerator\" />
+    <Folder Include="OptionType\" />
+  </ItemGroup>
+</Project>
