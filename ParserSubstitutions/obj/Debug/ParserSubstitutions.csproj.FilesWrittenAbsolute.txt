@@ -1,5 +1,0 @@
-/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/ParserSubstitutions/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
-/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/ParserSubstitutions/bin/Debug/ParserSubstitutions.dll.mdb
-/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/ParserSubstitutions/bin/Debug/ParserSubstitutions.dll
-/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/ParserSubstitutions/obj/Debug/ParserSubstitutions.dll
-/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/ParserSubstitutions/obj/Debug/ParserSubstitutions.dll.mdb

@@ -1,6 +1,0 @@
-/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/Tests/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
-/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/Tests/bin/Debug/Tests.dll.mdb
-/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/Tests/bin/Debug/Tests.dll
-/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/Tests/obj/Debug/Tests.dll
-/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/Tests/obj/Debug/Tests.dll.mdb
-/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/Tests/bin/Debug/nunit.framework.dll

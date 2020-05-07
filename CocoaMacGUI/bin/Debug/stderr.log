@@ -1,6 +1,0 @@
-2016-01-12 11:53:43.152 CocoaMacGUI[64043:6306392] Communications error: <OS_xpc_error: <error: 0x7fff75fb8b90> { count = 1, contents =
-	"XPCErrorDescription" => <string: 0x7fff75fb8f40> { length = 22, contents = "Connection interrupted" }
-}>
-2016-01-12 17:15:08.506 CocoaMacGUI[64043:6570783] Communications error: <OS_xpc_error: <error: 0x7fff75fb8b90> { count = 1, contents =
-	"XPCErrorDescription" => <string: 0x7fff75fb8f40> { length = 22, contents = "Connection interrupted" }
-}>

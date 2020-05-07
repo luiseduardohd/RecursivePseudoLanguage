@@ -1,5 +1,0 @@
-/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/ReflectiveEnumerator/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile7.AssemblyAttribute.cs
-/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/ReflectiveEnumerator/bin/Debug/ReflectiveEnumerator.dll.mdb
-/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/ReflectiveEnumerator/bin/Debug/ReflectiveEnumerator.dll
-/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/ReflectiveEnumerator/obj/Debug/ReflectiveEnumerator.dll
-/Users/luiseduardohernandez/Documents/GitHub/RecursivePseudoLanguage/ReflectiveEnumerator/obj/Debug/ReflectiveEnumerator.dll.mdb
