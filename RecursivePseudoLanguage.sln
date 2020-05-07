@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Preprocessor", "Preprocesso
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageConverter", "LanguageConverter\LanguageConverter.csproj", "{0ADBF4B1-7018-4F6A-90DC-48AA12A004CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{ADB17841-0689-48E3-9A3D-BF1A2CF647BA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsConsole", "TestsConsole\TestsConsole.csproj", "{FAA53E61-2384-4C06-A923-D52B4B959DE1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemX", "SystemX\SystemX.csproj", "{B9FFFA16-1F45-4AA1-9A48-3765D1F0BE06}"
@@ -71,10 +69,6 @@ Global
 		{98A7EE3B-F712-4FD4-9CF5-7518034F3F29}.Debug|x86.Build.0 = Debug|Any CPU
 		{98A7EE3B-F712-4FD4-9CF5-7518034F3F29}.Release|x86.ActiveCfg = Release|Any CPU
 		{98A7EE3B-F712-4FD4-9CF5-7518034F3F29}.Release|x86.Build.0 = Release|Any CPU
-		{ADB17841-0689-48E3-9A3D-BF1A2CF647BA}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{ADB17841-0689-48E3-9A3D-BF1A2CF647BA}.Debug|x86.Build.0 = Debug|Any CPU
-		{ADB17841-0689-48E3-9A3D-BF1A2CF647BA}.Release|x86.ActiveCfg = Release|Any CPU
-		{ADB17841-0689-48E3-9A3D-BF1A2CF647BA}.Release|x86.Build.0 = Release|Any CPU
 		{B9FFFA16-1F45-4AA1-9A48-3765D1F0BE06}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{B9FFFA16-1F45-4AA1-9A48-3765D1F0BE06}.Debug|x86.Build.0 = Debug|Any CPU
 		{B9FFFA16-1F45-4AA1-9A48-3765D1F0BE06}.Release|x86.ActiveCfg = Release|Any CPU

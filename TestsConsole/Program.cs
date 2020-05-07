@@ -2,22 +2,35 @@
 using ObjectiveC;
 using System.IO;
 using LanguageConverter;
+using NUnitLite;
+using NUnit.Framework;
+//using NUnit;
 
 namespace TestsConsole
 {
 	class MainClass
 	{
-		public static void Main (string[] args)
+		public static int Main(string[] args)
 		{
 			//test1 ();
 			//test2 ();
-//			test3 ();
-			testLanguageTranslator();
-//			testRecursivePseudoLanguageParser();
+			//			test3 ();
+			Test.testLanguageTranslator();
+			//			testRecursivePseudoLanguageParser();
 			Console.ReadLine();
+			return 0;
+			//return new AutoRun().Execute(args);
+		}
+	}
+	[TestFixture()]
+	public static class Test
+	{
+		
+		public static void TestCase()
+		{
 		}
 
-		public static void testRecursivePseudoLanguageParser()
+	    public static void testRecursivePseudoLanguageParser()
 		{
 			string inputText = "^(BOOL finished) {[self performSelector:@selector(stopLoadingComplete)];}";
 //			SystemX.ReplaceableString replaceableString = null;
@@ -29,6 +42,21 @@ namespace TestsConsole
 //			Console.WriteLine ("replaceableString.ToString():" + replaceableString.ToString());			
 		}
 
+
+		public static void testSum()
+		{
+			string inputCode = "";
+			string output = null;
+
+			inputCode = "1";
+			output = LanguageConverter.LanguageConverter.ObjectiveCToCSharp(inputCode);
+			Console.WriteLine(output);
+
+			inputCode = "1   +   2";
+			output = LanguageConverter.LanguageConverter.ObjectiveCToCSharp(inputCode);
+			Console.WriteLine(output);
+
+		}
 
 		public static void testLanguageTranslator()
 		{
