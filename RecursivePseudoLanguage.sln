@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Preprocessor", "Preprocesso
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageConverter", "LanguageConverter\LanguageConverter.csproj", "{0ADBF4B1-7018-4F6A-90DC-48AA12A004CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsConsole", "TestsConsole\TestsConsole.csproj", "{FAA53E61-2384-4C06-A923-D52B4B959DE1}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemX", "SystemX\SystemX.csproj", "{B9FFFA16-1F45-4AA1-9A48-3765D1F0BE06}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectiveEnumerator", "ReflectiveEnumerator\ReflectiveEnumerator.csproj", "{940EF20E-E1CE-4D24-AB05-6ABDA5692C91}"
@@ -30,6 +28,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocoaMacGUI", "CocoaMacGUI\CocoaMacGUI.csproj", "{FF6F4B41-1EFE-4614-9A81-9061861C790C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnBabeler", "UnBabeler\UnBabeler.csproj", "{328EE775-9685-4BC6-8198-E6A64BBFCD9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{66DEFB1A-0989-42B8-833E-F875B5A0087F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,10 +81,6 @@ Global
 		{D150C2CA-FFDE-4841-966A-00E10FAFEC2F}.Debug|x86.Build.0 = Debug|Any CPU
 		{D150C2CA-FFDE-4841-966A-00E10FAFEC2F}.Release|x86.ActiveCfg = Release|Any CPU
 		{D150C2CA-FFDE-4841-966A-00E10FAFEC2F}.Release|x86.Build.0 = Release|Any CPU
-		{FAA53E61-2384-4C06-A923-D52B4B959DE1}.Debug|x86.ActiveCfg = Debug|x86
-		{FAA53E61-2384-4C06-A923-D52B4B959DE1}.Debug|x86.Build.0 = Debug|x86
-		{FAA53E61-2384-4C06-A923-D52B4B959DE1}.Release|x86.ActiveCfg = Release|x86
-		{FAA53E61-2384-4C06-A923-D52B4B959DE1}.Release|x86.Build.0 = Release|x86
 		{FF6F4B41-1EFE-4614-9A81-9061861C790C}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{FF6F4B41-1EFE-4614-9A81-9061861C790C}.Debug|x86.Build.0 = Debug|Any CPU
 		{FF6F4B41-1EFE-4614-9A81-9061861C790C}.Release|x86.ActiveCfg = Release|Any CPU
@@ -93,5 +89,9 @@ Global
 		{FF6FDB80-CC4D-4C13-845C-0F2CC495F7A6}.Debug|x86.Build.0 = Debug|Any CPU
 		{FF6FDB80-CC4D-4C13-845C-0F2CC495F7A6}.Release|x86.ActiveCfg = Release|Any CPU
 		{FF6FDB80-CC4D-4C13-845C-0F2CC495F7A6}.Release|x86.Build.0 = Release|Any CPU
+		{66DEFB1A-0989-42B8-833E-F875B5A0087F}.Debug|x86.ActiveCfg = Debug|x86
+		{66DEFB1A-0989-42B8-833E-F875B5A0087F}.Debug|x86.Build.0 = Debug|x86
+		{66DEFB1A-0989-42B8-833E-F875B5A0087F}.Release|x86.ActiveCfg = Release|x86
+		{66DEFB1A-0989-42B8-833E-F875B5A0087F}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal

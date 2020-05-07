@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\NUnit.3.12.0\build\NUnit.props" Condition="Exists('..\packages\NUnit.3.12.0\build\NUnit.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{66DEFB1A-0989-42B8-833E-F875B5A0087F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TestConsole</RootNamespace>
+    <AssemblyName>TestConsole</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.3.12.0\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="nunitlite">
+      <HintPath>..\packages\NUnitLite.3.12.0\lib\net45\nunitlite.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="testComplete1.m" />
+    <None Include="testObjectiveC1.m" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ObjectiveC\ObjectiveC.csproj">
+      <Project>{536CA0C1-21BE-48BD-9961-A15338DCF62B}</Project>
+      <Name>ObjectiveC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LanguageConverter\LanguageConverter.csproj">
+      <Project>{0ADBF4B1-7018-4F6A-90DC-48AA12A004CA}</Project>
+      <Name>LanguageConverter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RecursivePseudoLanguage\RecursivePseudoLanguage.csproj">
+      <Project>{FF6FDB80-CC4D-4C13-845C-0F2CC495F7A6}</Project>
+      <Name>RecursivePseudoLanguage</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSharp\CSharp.csproj">
+      <Project>{98A7EE3B-F712-4FD4-9CF5-7518034F3F29}</Project>
+      <Name>CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SystemX\SystemX.csproj">
+      <Project>{B9FFFA16-1F45-4AA1-9A48-3765D1F0BE06}</Project>
+      <Name>SystemX</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
