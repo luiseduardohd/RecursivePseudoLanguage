@@ -1,5 +1,5 @@
 ﻿using System;
-
+using System.IO;
 using AppKit;
 using Foundation;
 using UnBabelerCode;
@@ -20,6 +20,20 @@ namespace CocoaMacGUI
 			// Do any additional setup after loading the view.
 
 
+			string fileName = @"testObjectiveC1";
+			//string fileName = @"testObjectiveC1.m";
+			string mainBundleDir = NSBundle.MainBundle.PathForResource(fileName, "m");
+			string currentDirectory = Directory.GetCurrentDirectory();
+			//string filePath = Path.Combine(mainBundleDir, fileName);
+			string filePath = mainBundleDir;
+			//			string target = @"c:\temp";
+			Console.WriteLine("The current directory is {0}", filePath);
+			if (File.Exists(filePath))
+			{
+                inputCode.TextStorage.SetString( new NSAttributedString( File.ReadAllText(filePath) ) );
+			}
+
+			//inputCode.TextStorage.Value = 
 		}
 
 		partial void convert (Foundation.NSObject sender)
@@ -48,5 +62,6 @@ namespace CocoaMacGUI
 				// Update the view, if already loaded.
 			}
 		}
+
 	}
 }
