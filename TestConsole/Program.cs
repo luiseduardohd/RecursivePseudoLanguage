@@ -15,14 +15,15 @@ namespace TestsConsole
 			//test1 ();
 			//test2 ();
 			//			test3 ();
-			Test.testLanguageTranslator();
+			//Test.testLanguageTranslator();
+			//Test.test1();
 			//			testRecursivePseudoLanguageParser();
-			Console.ReadLine();
-			return 0;
-			//return new AutoRun().Execute(args);
+			//Console.ReadLine();
+			//return 0;
+			return new AutoRun().Execute(args);
 		}
 	}
-	[TestFixture()]
+	[TestFixture]
 	public static class Test
 	{
 		
@@ -42,8 +43,30 @@ namespace TestsConsole
 //			Console.WriteLine ("replaceableString.ToString():" + replaceableString.ToString());			
 		}
 
+		[Test]
+		public static void testSimple()
+		{
+			string inputCode = "";
+			string output = null;
 
+			inputCode = "1";
+			output = LanguageConverter.LanguageConverter.ObjectiveCToCSharp(inputCode);
+			Assert.AreEqual(inputCode.Trim(), output.Trim());
+			//Console.WriteLine(output);
+
+		}
+		[Test]
 		public static void testSum()
+		{
+			string inputCode = "";
+			string output = null;
+
+			inputCode = "1 + 2";
+			output = LanguageConverter.LanguageConverter.ObjectiveCToCSharp(inputCode);
+			Assert.AreEqual(inputCode.Trim(), output.Trim());
+		}
+
+		public static void testSum1()
 		{
 			string inputCode = "";
 			string output = null;

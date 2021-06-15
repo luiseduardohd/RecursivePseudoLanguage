@@ -1,52 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>{FF6FDB80-CC4D-4C13-845C-0F2CC495F7A6}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <RootNamespace>RecursivePseudoLanguage</RootNamespace>
-    <AssemblyName>RecursivePseudoLanguage</AssemblyName>
-    <TargetFrameworkProfile>Profile78</TargetFrameworkProfile>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug</OutputPath>
-    <DefineConstants>DEBUG;</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <ConsolePause>false</ConsolePause>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>full</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release</OutputPath>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <ConsolePause>false</ConsolePause>
-  </PropertyGroup>
+
   <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Brace.cs" />
-    <Compile Include="Bracket.cs" />
-    <Compile Include="Element.cs" />
-    <Compile Include="Implementation.cs" />
-    <Compile Include="InnerElement.cs" />
-    <Compile Include="Interface.cs" />
-    <Compile Include="Parenthesis.cs" />
-    <Compile Include="Protocol.cs" />
-    <Compile Include="RecursivePseudoLanguage.cs" />
-    <Compile Include="RecursivePseudoLanguageElement.cs" />
+    <ProjectReference Include="..\ParserSubstitutions\ParserSubstitutions.csproj" />
+    <ProjectReference Include="..\SystemX\SystemX.csproj" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
-  <ItemGroup>
-    <ProjectReference Include="..\SystemX\SystemX.csproj">
-      <Project>{B9FFFA16-1F45-4AA1-9A48-3765D1F0BE06}</Project>
-      <Name>SystemX</Name>
-    </ProjectReference>
-  </ItemGroup>
+
 </Project>
